@@ -24,3 +24,11 @@ def Factor(n):
 num = int(input("Введите число: "))
 print(Factor(num))
 
+#3
+list = [int(input("Введите число: ")) for i in range(int(input("Введите количество элементов в массиве: ")))]
+print(f"список: {list}")
+set = set()
+for elem in list:
+  set.add(elem)
+
+print(f"множество: {set}")
